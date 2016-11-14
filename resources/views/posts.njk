@@ -1,0 +1,16 @@
+{% extends 'masterBlog' %}
+
+{% block blog %}
+
+<div class="container">
+    <ul class="list-group">
+        {% for post in posts%}
+        <li class="list-group-item">
+            <a href="/blog/{{ post.id }}">{{ post.headline }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+
+{% endblock %}

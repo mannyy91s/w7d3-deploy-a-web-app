@@ -2423,6 +2423,12 @@ punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
+pusher:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/pusher/-/pusher-1.5.0.tgz#1cad819cb28d9523f8c75c5e26d148a1e096d398"
+  dependencies:
+    request "^2.74.0"
+
 q@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.4.1.tgz#55705bcd93c5f3673530c2c2cbc0c2b3addc286e"
@@ -2596,7 +2602,7 @@ repl-plus@^0.2.0:
     mongoose "^4.0.6"
     q "^1.4.1"
 
-request@^2.75.0:
+request@^2.74.0, request@^2.75.0:
   version "2.78.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.78.0.tgz#e1c8dec346e1c81923b24acdb337f11decabe9cc"
   dependencies:
